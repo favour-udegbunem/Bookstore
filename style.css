@@ -1,0 +1,1529 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.screen{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    /* color: #333; */
+    background-color: #f9f9f9;
+}
+
+/* Header Styles */
+
+header {
+    background-image: url(img/Uma\ estante\ de\ livros\ com\ um\ livro\ chamado\ clube\ do\ livro\ do\ mês_\ _\ Foto\ Premium.jpeg);
+    /* background-repeat: no-repeat; */
+    /* background-color: #333; */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    height: 90vh;
+}
+
+header h1 {
+    margin: 0;
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.navbar{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #045E;
+    height: 10vh;
+    width: 100%;
+}
+
+nav {
+    /* background-color: #444; */
+    padding: 1em;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+input{
+    width: 30%;
+    margin-left: 60%;
+    margin-top: -30px;
+    height: 6vh;
+    position: absolute;
+    padding: 10px 30px;
+}
+
+#search{
+    width: 7%;
+    height: 6vh;
+    background-color: rgba(2, 139, 174, 0.933);
+    border: none;
+    margin-left: 90%;
+    margin-top: -30px;
+    position: absolute;
+    color: #fff;
+}
+/* Main Content Styles */
+
+main {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    height: 350vh;
+}
+
+.main__container h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.main__container h1::before{
+    content: '';
+    height: 10px;
+    width: 20px;
+    color: blue;
+}
+
+.main__container h1:hover::before{
+    transition: 2s;
+    color: blue;
+}
+
+/* Book List Styles */
+
+#books{
+    display: flex;
+}
+
+#books ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#books li {
+    display: inline-block;  
+    color: #fff;
+}
+
+#books h2{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    margin-left: -7%;
+}
+
+.first{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -42%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .first:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+h3{
+    color: black;
+    margin-left: 20%;
+    width: 100%;
+}
+
+p{
+    color: black;
+    margin-left: 20%;
+    width: 100%;
+}
+
+span{
+    color: black;
+    margin-left: 15%;
+}
+
+.img-1{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.add-to-cart{
+    background-color: green;
+    width: 25%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+.second{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 3.5%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -14%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .second:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-2{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.add-to-cart{
+    background-color: green;
+    width: 25%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+
+.third{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 3.5%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .third:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-3{
+    width: 115%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-left: 50%;
+    height: 32vh;
+}
+
+.add-to-cart-1{
+    background-color: green;
+    width: 50%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 53%;
+}
+
+.price-1{
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -10%;
+}
+
+.fourth{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 43%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -42%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .fourth:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+.img-4{
+    width: 140%;
+    margin-top: 10%;
+    margin-left: 35%;
+    height: 30vh;
+}
+
+.add-to-cart-2{
+    background-color: green;
+    width: 55%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 35%;
+}
+
+.price-2{
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.fifth{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 43%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -14%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .fifth:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-5{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 14%;
+    height: 30vh;
+}
+
+.add-to-cart-3{
+    background-color: green;
+    width: 25%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+
+.sixth{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 43%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .sixth:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-6{
+    width: 115%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-left: 20%;
+    height: 32vh;
+}
+
+.add-to-cart-4{
+    background-color: green;
+    width: 50%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 23%;
+}
+
+.price-4{
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+.seventh{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 78%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -42%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .seventh:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+.img-7{
+    width: 140%;
+    margin-top: 10%;
+    margin-left: 35%;
+    height: 30vh;
+}
+
+.add-to-cart-5{
+    background-color: green;
+    width: 55%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 35%;
+}
+
+.price-5{
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.eight{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 78%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -14%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .eight:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-8{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 14%;
+    height: 30vh;
+}
+
+.add-to-cart-6{
+    background-color: green;
+    width: 25%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+
+.ninth{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 78%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .ninth:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-9{
+    width: 115%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-left: 20%;
+    height: 32vh;
+}
+
+.add-to-cart-7{
+    background-color: green;
+    width: 50%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 23%;
+}
+
+.price-7{
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+
+.tenth{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 112%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -42%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .tenth:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+.img-10{
+    width: 120%;
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 30vh;
+}
+
+.add-to-cart-7{
+    background-color: green;
+    width: 55%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+.price-7{
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.eleventh{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 112%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: -14%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .eleventh:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-11{
+    width: 70%;
+    margin-top: 10%;
+    margin-left: 14%;
+    height: 30vh;
+}
+
+.add-to-cart-8{
+    background-color: green;
+    width: 25%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 20%;
+}
+
+
+.twelf{
+    width: 25%;
+    background-color: #ededed;
+    height: 60vh;
+    position: absolute;
+    margin-top: 112%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 15%;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* .twelf:hover{
+    transform: scale(90%);
+    transition: 2s;
+} */
+
+
+.img-12{
+    width: 115%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-left: 20%;
+    height: 32vh;
+}
+
+.add-to-cart-9{
+    background-color: green;
+    width: 50%;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    height: 6vh;
+    margin-left: 23%;
+}
+
+.price-9{
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #000;
+    backdrop-filter: blur(10px);
+    background-color: #ede;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord{
+    color: #000 !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.modal-header{
+    width: 100%;
+    background-color: #000;
+}
+
+/* The Close Button */
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content1{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: green;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord1{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close1 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close1:hover,
+.close1:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content2{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #D7803C;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord2{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close2 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close2:hover,
+.close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content3{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #39C2CC;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord3{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close3 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close3:hover,
+.close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content4{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #1B242D;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord4{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close4 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close4:hover,
+.close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content5{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #F3C74F;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord5{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close5 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close5:hover,
+.close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content6{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #1A6E82;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord6{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close6 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close6:hover,
+.close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content7{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #607475;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord7{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close7 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close7:hover,
+.close7.close1 {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal8 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content8{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #321F17;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord8{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close8 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close8:hover,
+.close8.close1 {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.modal9 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content9{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #163B42;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord9{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 15% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close9 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close9:hover,
+.close9.close1 {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal10 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content10{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #353537;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord10{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 12% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close10 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close10:hover,
+.close10.close1 {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal11 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    opacity: 1000%;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+.modal-content11{
+    position: relative;
+    margin: auto;
+    border-radius: 10px;
+    padding: 0;
+    border: 2 solid #fff;
+    backdrop-filter: blur(10px);
+    background-color: #1D1415;
+    opacity: 1000%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.68),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    z-index: 1000;
+    position: sticky;
+}
+
+.lord11{
+    color: #fff !important;
+    text-align: center !important;
+    margin-left: 20% !important;
+    position: absolute !important;
+    font-size: 20px !important;
+    padding-top: 10px !important;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close11 {
+    color: #fff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding-right: 20px;
+}
+
+.close11:hover,
+.close11.close1 {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}

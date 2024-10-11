@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="check.css">
+</head>
+<body style="background-color: #ede;">
+
+    <div class="first" id="lone">
+        <li>
+            <img src="img/Book Cover Design - 3-Book Series.jpeg" alt="Book 1 Image" class="img-1">
+            <h3>Lord Of all realms</h3>
+            <p>Book 1 Description</p>
+            <button class="add-to-cart" id="lone1">Add to Cart</button>
+            <span class="price">$19.99</span>
+        </li>
+    </div>
+    <h1>Cart</h1>
+	<ul id="cart-list">
+		<!-- cart items will be displayed here -->
+	</ul>
+
+    <script>
+		let cartItems = JSON.parse(localStorage.getItem('cart'));
+		if (cartItems) {
+			cartItems.forEach(function(item) {
+				let cartItemsHTML = `
+					<li class="cart-item">
+						<p>${books.name} - $${books.price}</p>
+					</li>
+				`;
+				document.getElementById('cart-list').innerHTML += cartItemsHTML;
+			});
+
+let addBtn = document.getElementById('lone1')
+let cartItems = [];
+let books = [
+    {name: 'lord of all realms', id: '001', price: 19.99, isAvailable: false},
+    {name: 'God of incarnation', id: '002', price: 29.99, isAvailable: false},
+    {name: 'Shadow Slave', id: '003', price:239.19, isAvailable: true},
+    {name: 'Lord of the dead', id: '004', price: 12.9, isAvailable: true},
+    {name: 'Lucifer', id: '005', price: 39.9, isAvailable: false},
+    {name: 'Shadow God', id: '006', price: 9.99, isAvailable: true},
+    {name: 'In the mist of men', id: '007', price: 13,  isAvailable: false},
+    {name: 'God of hallucination', id: '008', price: 25., isAvailable: false},
+    {name: 'Incantation of slaves', id: '009', price: 23.9, isAvailable: true},
+    {name: 'Necromancy of sorcery', id: '010', price: 50.19, isAvailable: false},
+    {name: 'Apostles of shadow god', id: '011', price: 44.1,isAvailable: true},
+    {name: 'Call on me', id: '012', price: 20.3, isAvailable: true},
+]
+
+addBtn.addEventListener('click', (event) => {
+if(books.isAvailable == false){
+    alert('cii uvksfiffc  ci  ')
+}
+});
+        }
+
+        //     if(event.target == 'click' && books.isAvailable == false){
+//         let lowerCaseTitle = Title.toLowerCase()
+//             for (let i = 0; i < books.length; i++){
+//         if (books[i].title.toLowerCase() === lowerCaseTitle){
+//             let listHTML = `
+//         <p>name ${books[i].name}price ${books[i].price} - Availability ${books[i].isAvailable}</p>
+//     `;
+//     document.getElementById('list').innerHTML += listHTML
+
+//         }
+//     }
+// }
+		
+	</script>
+	<script src="app.js"></script>
+</body>
+</html>
